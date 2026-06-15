@@ -1,7 +1,7 @@
 if SHIELD_BROCCOLI_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "broccoli"
+    default "lea"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
