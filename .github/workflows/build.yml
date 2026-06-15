@@ -33,5 +33,7 @@ jobs:
           RELEASE_NAME: ${{ steps.release.outputs.release_name }}
         run: |
           gh release create "${RELEASE_NAME}" firmware/* \
+            --repo "${GITHUB_REPOSITORY}" \
+            --target "${GITHUB_SHA}" \
             --title "${RELEASE_NAME}" \
             --notes "Firmware build for ${GITHUB_SHA}"
