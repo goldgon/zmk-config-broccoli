@@ -1,0 +1,271 @@
+layout: {zmk_keyboard: broccoli}
+layers:
+  default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ⌃
+  - A
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: G, h: ⌃}
+  - {t: H, h: ⌃}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '-', h: layer3}
+  - ;
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace$$
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - {t: '$$mdi:keyboard-return$$', h: layer2}
+  layer1:
+  - ''
+  - ''
+  - ''
+  - ''
+  - BOOT
+  - ^
+  - '`'
+  - '['
+  - ']'
+  - '@'
+  - ''
+  - '!'
+  - '"'
+  - '#'
+  - $
+  - '%'
+  - '&'
+  - ''''
+  - (
+  - )
+  - _
+  - ''
+  - ''
+  - /
+  - '*'
+  - '-'
+  - +
+  - ''
+  - '|'
+  - '~'
+  - '{'
+  - '}'
+  - ¥
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  layer2:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - ''
+  - '1'
+  - {t: '2', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '5', h: ⌃}
+  - {t: '6', h: ⌃}
+  - {t: '7', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '8', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '9', h: '$$mdi:apple-keyboard-command$$'}
+  - '0'
+  - ''
+  - ''
+  - /
+  - '*'
+  - '-'
+  - +
+  - ''
+  - F11
+  - F12
+  - ','
+  - .
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  layer3:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:chevron-up$$
+  - ''
+  - BOOT
+  - ''
+  - layer4
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - ⌃
+  - ''
+  - $$mdi:chevron-left$$
+  - $$mdi:chevron-down$$
+  - $$mdi:chevron-right$$
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
+  - ''
+  - {t: ▽, type: trans}
+  - $$mdi:backspace-reverse$$
+  - {t: ▽, type: trans}
+  layer4:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BOOT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  game:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ⌃
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ':'
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace$$
+  - $$mdi:keyboard-space$$
+  - {t: default, h: toggle}
+combos:
+- p: [24, 25]
+  k: ABC
+  l: [default]
+- p: [30, 31]
+  k: あいう
+  l: [default]
+- p: [17, 18]
+  k: LCLK
+  l: [default]
+- p: [18, 19]
+  k: RCLK
+  l: [default]
+- p: [19, 17]
+  k: MCLK
+  l: [default]
+  a: top
+  o: 0.15
+- p: [12, 13]
+  k: Tab
+  l: [default]
+- p: [1, 2]
+  k: ESC
+  l: [default]
+- p: [7, 8]
+  k: '"'
+  l: [default]
+- p: [6, 7]
+  k: ;
+  l: [default]
+- p: [29, 30]
+  k: ':'
+  l: [default]
+- p: [17, 18, 19]
+  k: layer3
+  l: [default]
+- p: [10, 22]
+  k: ESC
+  l: [game]
+- p: [10, 22, 35]
+  k: {t: game, h: toggle}
