@@ -116,38 +116,38 @@ layers:
   - {t: ▽, type: trans}
   layer3:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - HOME
   - $$mdi:chevron-up$$
+  - PAGE UP
   - ''
-  - BOOT
+  - Tab
+  - '7'
+  - '8'
+  - '9'
+  - '&mkp MB3'
   - ''
-  - layer4
-  - {t: '$$mdi:apple-keyboard-command$$', type: held}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
-  - ⌃
   - ''
-  - $$mdi:chevron-left$$
+  - {t: '$$mdi:chevron-left$$', type: held}
   - $$mdi:chevron-down$$
   - $$mdi:chevron-right$$
   - ''
+  - $$mdi:backspace$$
+  - '4'
+  - {t: '5', h: RGUI}
+  - '6'
+  - $$mdi:keyboard-return$$
   - ''
   - ''
   - ''
+  - END
   - ''
+  - PAGE DOWN
   - ''
-  - ''
-  - ''
-  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - {t: ., h: ⌃}
   - ''
   - {t: ▽, type: trans}
   - $$mdi:backspace-reverse$$
