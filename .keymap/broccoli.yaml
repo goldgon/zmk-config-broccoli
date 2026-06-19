@@ -12,28 +12,28 @@ layers:
   - {t: W, h: game}
   - '&mkp MB1'
   - ⌃
-  - A
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: ⌃}
+  - {t: Tab, h: LSHIFT}
+  - {t: O, h: layer3}
+  - {t: A, h: layer2}
+  - {t: I, h: layer1}
+  - {t: F, h: ⌃}
   - {t: H, h: ⌃}
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '-', h: layer3}
+  - {t: Y, h: layer1}
+  - {t: K, h: layer2}
+  - {t: S, h: layer3}
+  - {t: B, h: '$$mdi:apple-keyboard-shift$$'}
   - ;
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
+  - {t: '-', h: layer4}
+  - {t: X, h: LGUI}
+  - {t: C, h: LALT}
+  - {t: V, h: LSHIFT}
+  - {t: L, h: ⌃}
+  - {t: N, h: ⌃}
+  - {t: M, h: RSHIFT}
+  - {t: G, h: RALT}
+  - {t: J, h: RGUI}
+  - {t: Z, h: layer4}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: layer1}
@@ -53,7 +53,7 @@ layers:
   - '!'
   - '"'
   - '#'
-  - $
+  - {t: $, type: held}
   - '%'
   - '&'
   - ''''
@@ -74,7 +74,7 @@ layers:
   - ¥
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer2:
   - F1
@@ -90,7 +90,7 @@ layers:
   - ''
   - '1'
   - {t: '2', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '3', h: '$$mdi:apple-keyboard-option$$', type: held}
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '5', h: ⌃}
   - {t: '6', h: ⌃}
@@ -113,7 +113,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   layer3:
   - ''
   - ''
@@ -127,7 +127,7 @@ layers:
   - BOOT
   - ''
   - layer4
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:apple-keyboard-command$$', type: held}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - ⌃
@@ -135,7 +135,7 @@ layers:
   - $$mdi:chevron-left$$
   - $$mdi:chevron-down$$
   - $$mdi:chevron-right$$
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -164,7 +164,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,10 +172,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
