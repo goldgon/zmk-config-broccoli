@@ -15,9 +15,7 @@
         default_layer {
             bindings = <
                 &kp ESCAPE      &lt 5 Q    &lt 6 E    &lt 7 U  &kp P                               &kp D        &lt 7 T       &lt 6 R     &lt 5 W     &mkp MB1
-
 &kp LEFT_CONTROL &mt LSHIFT TAB  &lt 3 O    &lt 2 A    &lt 1 I       &mt LCTRL F                  &mt RCTRL H  &lt 1 Y       &lt 2 K     &lt 3 S     &mt LEFT_SHIFT B    &kp SEMICOLON
-
 &kp LEFT_SHIFT   &lt 4 MINUS     &mt LGUI X &mt LALT C &mt LSHIFT V  &mt LCTRL L                  &mt RCTRL N  &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z             &kp RIGHT_SHIFT
 
                                             &kp SPACE &kp LC(RG(LEFT))                            &kp LG(RC(RIGHT))
@@ -27,9 +25,7 @@
         layer1 {
             bindings = <
        &kp 0x38      &none      &kp UP     &none      &none                              &kp TAB        &kp UP     &kp JP_SQT  &kp JP_DQT  &mkp MB2
-
 &none   &kp JP_SEMI   &kp LEFT   &kp GRAVE  &kp GRAVE  &kp MINUS                       &kp BACKSPACE  &kp SPACE  &kp TAB     &kp ENTER   &kp COMMA    &none
-
 &none     &kp JP_COLON  &none      &none      &none      &none                          &kp DELETE     &none      &none       &none       &mt LCTRL PERIOD &none
                                                &trans            &trans                                                   &trans
             >;
@@ -37,9 +33,10 @@
 
         layer2 {
             bindings = <
-       &kp F1        &kp F2                        &kp F3                        &kp F4                          &kp F5                       &kp F6                     &kp F7                           &kp F8                         &kp F9                         &kp F10
-&none  &kp NUMBER_1  &hmr_num_l LEFT_GUI NUMBER_2  &hmr_num_l LEFT_ALT NUMBER_3  &hmr_num_l LEFT_SHIFT NUMBER_4  &hmr_num_l LCTRL NUMBER_5    &hmr_num_r RCTRL NUMBER_6  &hmr_num_r RIGHT_SHIFT NUMBER_7  &hmr_num_r RIGHT_ALT NUMBER_8  &hmr_num_r RIGHT_GUI NUMBER_9  &kp NUMBER_0  &none
-&none  &kp SLASH     &kp LS(SINGLE_QUOTE)          &kp MINUS                     &kp LS(SEMICOLON)               &none                        &kp F11                    &kp F12                          &kp COMMA                      &kp DOT                        &none         &none
+                   &none        &kp JP_LT      &kp JP_EQUAL   &kp JP_RT    &kp JP_PRCNT                               &kp JP_DLLR   &kp JP_PLUS  &kp JP_CARET      &kp JP_SLASH  &mkp MB3
+          &none    &kp JP_LBKT  &kp JP_LPAR    &kp JP_AT      &kp JP_RPAR  &kp JP_RBKT                             &kp JP_QMARK  &kp JP_HASH  &kp DOUBLE_QUOTES &kp LS(0x87)  &kp LS(0x1e)   &none
+          &none    &kp JP_TILDE &kp JP_LBRC    &kp JP_AMPS    &kp JP_RBRC  &none                                   &kp JP_YEN    &none        &kp JP_SQT        &kp JP_PIPE   &none          &none
+  
                                                    &trans                        &trans                                                                                  &trans
             >;
         };
