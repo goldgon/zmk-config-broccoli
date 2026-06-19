@@ -50,28 +50,28 @@ layers:
   - Sft+2
   - '&mkp MB2'
   - ''
-  - '!'
-  - '"'
-  - '#'
-  - {t: $, type: held}
-  - '%'
-  - '&'
-  - ''''
-  - (
-  - )
-  - _
-  - ''
-  - ''
-  - /
-  - '*'
+  - ;
+  - $$mdi:chevron-left$$
+  - '`'
+  - {t: '`', type: held}
   - '-'
-  - +
+  - $$mdi:backspace$$
+  - $$mdi:keyboard-space$$
+  - Tab
+  - $$mdi:keyboard-return$$
+  - ','
   - ''
-  - '|'
-  - '~'
-  - '{'
-  - '}'
-  - ¥
+  - ''
+  - ':'
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:backspace-reverse$$
+  - ''
+  - ''
+  - ''
+  - {t: ., h: ⌃}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
