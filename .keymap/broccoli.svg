@@ -9,6 +9,9 @@
 <svg id="mdi:backspace-reverse">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-reverse" viewBox="0 0 24 24"><path d="M2,21H17C17.7,21 18.2,20.6 18.6,20.1L24,12L18.6,3.9C18.2,3.4 17.7,3 17,3H2A2,2 0 0,0 0,5V19A2,2 0 0,0 2,21M5,8.4L6.4,7L10,10.6L13.6,7L15,8.4L11.4,12L15,15.6L13.6,17L10,13.4L6.4,17L5,15.6L8.6,12" /></svg>
 </svg>
+<svg id="mdi:bluetooth-connect">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-connect" viewBox="0 0 24 24"><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
+</svg>
 <svg id="mdi:chevron-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-down" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
 </svg>
@@ -358,62 +361,89 @@ path.combo { stroke: #7f7f7f; }
 <use href="#mdi:chevron-right" xlink:href="#mdi:chevron-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:chevron-right"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="136" width="28" height="26" class="combo"/>
-<text x="168" y="149" class="combo tap">ABC</text>
+<path d="M196,45 l-37,1" class="combo"/>
+<path d="M196,45 l37,-1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="32" width="28" height="26" class="combo"/>
+<text x="196" y="45" class="combo tap">`</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="602" y="136" width="28" height="26" class="combo"/>
-<text x="616" y="149" class="combo tap">あいう</text>
+<path d="M588,66 l-93,-12" class="combo"/>
+<path d="M588,66 l93,12" class="combo"/>
+<rect rx="6" ry="6" x="574" y="53" width="28" height="26" class="combo"/>
+<text x="588" y="66" class="combo tap">Gui+2</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="546" y="79" width="28" height="26" class="combo"/>
-<text x="560" y="92" class="combo tap">LCLK</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="602" y="80" width="28" height="26" class="combo"/>
-<text x="616" y="93" class="combo tap">RCLK</text>
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 <g class="combo combopos-4">
-<path d="M588,63 h50 a6.0,6.0 0 0 1 6.0,6.0 v14" class="combo"/>
-<path d="M588,63 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
-<rect rx="6" ry="6" x="574" y="50" width="28" height="26" class="combo"/>
-<text x="588" y="63" class="combo tap">MCLK</text>
+<path d="M84,137 l0,-37" class="combo"/>
+<path d="M84,137 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="70" y="124" width="28" height="26" class="combo"/>
+<text x="84" y="137" class="combo tap">
+<tspan x="84" dy="-0.6em">BT</tspan><tspan x="84" dy="1.2em">…</tspan>
+</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="154" y="80" width="28" height="26" class="combo"/>
-<text x="168" y="93" class="combo tap">Tab</text>
+<path d="M476,108 l0,-37" class="combo"/>
+<path d="M476,108 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="462" y="95" width="28" height="26" class="combo"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="469" y="101" height="14" width="14.0" class="combo tap glyph mdi:bluetooth-connect"/>
+<text x="476" y="119" class="combo hold">1</text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="154" y="24" width="28" height="26" class="combo"/>
-<text x="168" y="37" class="combo tap">ESC</text>
+<path d="M532,100 l0,-37" class="combo"/>
+<path d="M532,100 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="518" y="87" width="28" height="26" class="combo"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="525" y="93" height="14" width="14.0" class="combo tap glyph mdi:bluetooth-connect"/>
+<text x="532" y="111" class="combo hold">2</text>
 </g>
 <g class="combo combopos-7">
-<rect rx="6" ry="6" x="602" y="24" width="28" height="26" class="combo"/>
-<text x="616" y="37" class="combo tap">&quot;</text>
+<path d="M588,84 l0,-37" class="combo"/>
+<path d="M588,84 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="574" y="71" width="28" height="26" class="combo"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="581" y="77" height="14" width="14.0" class="combo tap glyph mdi:bluetooth-connect"/>
+<text x="588" y="95" class="combo hold">3</text>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="546" y="23" width="28" height="26" class="combo"/>
-<text x="560" y="36" class="combo tap">;</text>
+<rect rx="6" ry="6" x="266" y="91" width="28" height="26" class="combo"/>
+<text x="280" y="104" class="combo tap">MUTE</text>
 </g>
 <g class="combo combopos-9">
-<rect rx="6" ry="6" x="546" y="135" width="28" height="26" class="combo"/>
-<text x="560" y="148" class="combo tap">:</text>
+<rect rx="6" ry="6" x="266" y="35" width="28" height="26" class="combo"/>
+<text x="280" y="48" class="combo tap">
+<tspan x="280" dy="-0.6em">VOL</tspan><tspan x="280" dy="1.2em">UP</tspan>
+</text>
 </g>
 <g class="combo combopos-10">
-<path d="M588,95 l-37,3" class="combo"/>
-<path d="M588,95 l37,4" class="combo"/>
-<rect rx="6" ry="6" x="574" y="82" width="28" height="26" class="combo"/>
-<a href="#layer3">
-<text x="588" y="95" class="combo tap layer-activator">layer3</text>
-</a></g>
+<rect rx="6" ry="6" x="266" y="147" width="28" height="26" class="combo"/>
+<text x="280" y="160" class="combo tap">
+<tspan x="280" dy="-0.6em">VOL</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
 <g class="combo combopos-11">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M196,157 l-37,1" class="combo"/>
+<path d="M196,157 l37,-1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="144" width="28" height="26" class="combo"/>
+<text x="196" y="157" class="combo tap">PSCRN</text>
+</g>
+<g class="combo combopos-12">
+<path d="M168,119 l-66,14" class="combo"/>
+<path d="M168,119 l66,-14" class="combo"/>
+<rect rx="6" ry="6" x="154" y="106" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="161" y="112" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -558,13 +588,20 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 </g>
 </g>
@@ -718,13 +755,20 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 </g>
 </g>
@@ -879,13 +923,20 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 </g>
 </g>
@@ -1020,13 +1071,20 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 </g>
 </g>
@@ -1178,17 +1236,20 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="14" y="152" width="28" height="26" class="combo"/>
-<text x="28" y="165" class="combo tap">ESC</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
 </g>
 <g class="combo combopos-1">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 </g>
 </g>
@@ -1343,13 +1404,20 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 </g>
 </g>
@@ -1501,13 +1569,20 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
-<path d="M130,192 l-86,-46" class="combo"/>
-<path d="M130,192 l-84,1" class="combo"/>
-<path d="M130,192 l187,48" class="combo"/>
-<rect rx="6" ry="6" x="116" y="179" width="28" height="26" class="combo"/>
-<a href="#SCROLL">
-<text x="130" y="192" class="combo tap layer-activator">SCROLL</text>
-</a><text x="130" y="203" class="combo hold">toggle</text>
+<path d="M602,122 l-110,-62" class="combo"/>
+<path d="M602,122 l81,-34" class="combo"/>
+<path d="M602,122 l-108,35" class="combo"/>
+<path d="M602,122 l137,63" class="combo"/>
+<rect rx="6" ry="6" x="588" y="109" width="28" height="26" class="combo"/>
+<text x="602" y="122" class="combo tap">BOOT</text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,122 l-81,-34" class="combo"/>
+<path d="M182,122 l110,-62" class="combo"/>
+<path d="M182,122 l-137,63" class="combo"/>
+<path d="M182,122 l108,35" class="combo"/>
+<rect rx="6" ry="6" x="168" y="109" width="28" height="26" class="combo"/>
+<text x="182" y="122" class="combo tap">BOOT</text>
 </g>
 </g>
 </g>
