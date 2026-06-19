@@ -77,38 +77,38 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer2:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
   - ''
-  - '1'
-  - {t: '2', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$', type: held}
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '5', h: ⌃}
-  - {t: '6', h: ⌃}
-  - {t: '7', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '8', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '9', h: '$$mdi:apple-keyboard-command$$'}
-  - '0'
-  - ''
-  - ''
+  - Sft+,
+  - Sft+-
+  - Sft+.
+  - Sft+5
+  - Sft+4
+  - Sft+;
+  - ^
   - /
-  - '*'
-  - '-'
-  - +
+  - '&mkp MB3'
   - ''
-  - F11
-  - F12
-  - ','
-  - .
+  - '['
+  - Sft+8
+  - {t: '@', type: held}
+  - Sft+9
+  - '#'
+  - Sft+/
+  - Sft+3
+  - '*'
+  - Sft+0x87
+  - Sft+0x1e
+  - ''
+  - ''
+  - '~'
+  - Sft+[
+  - Sft+6
+  - Sft+#
+  - ''
+  - ¥
+  - ''
+  - Sft+7
+  - Sft+¥
   - ''
   - ''
   - {t: ▽, type: trans}
