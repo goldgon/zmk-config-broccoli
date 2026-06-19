@@ -28,8 +28,9 @@
             bindings = <
        &kp 0x38      &none      &kp UP     &none      &none                              &kp TAB        &kp UP     &kp JP_SQT  &kp JP_DQT  &mkp MB2
 
-&none  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)      &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(NUMBER_5)    &kp RS(NUMBER_6)  &kp RS(NUMBER_7)      &kp RS(NUMBER_8)       &kp RS(NUMBER_9)   &kp RS(INT1)      &none
-&none  &kp SLASH         &kp LS(SINGLE_QUOTE)  &kp MINUS         &kp LS(SEMICOLON)  &none               &kp RS(INT3)      &kp LS(EQUAL)         &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp INT3          &none
+&none   &kp JP_SEMI   &kp LEFT   &kp GRAVE  &kp GRAVE  &kp MINUS                       &kp BACKSPACE  &kp SPACE  &kp TAB     &kp ENTER   &kp COMMA    &none
+
+&none     &kp JP_COLON  &none      &none      &none      &none                          &kp DELETE     &none      &none       &none       &mt LCTRL PERIOD &none
                                                &trans            &trans                                                   &trans
             >;
         };
