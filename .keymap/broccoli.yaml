@@ -39,16 +39,16 @@ layers:
   - Ctl+Gui+$$mdi:chevron-left$$
   - Gui+Ctl+$$mdi:chevron-right$$
   layer1:
+  - '0x38'
+  - ''
+  - $$mdi:chevron-up$$
   - ''
   - ''
-  - ''
-  - ''
-  - BOOT
-  - ^
-  - '`'
-  - '['
-  - ']'
-  - '@'
+  - Tab
+  - $$mdi:chevron-up$$
+  - Sft+7
+  - Sft+2
+  - '&mkp MB2'
   - ''
   - '!'
   - '"'
