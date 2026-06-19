@@ -1,6 +1,8 @@
 // This file was generated from a template. Edit it to match your keyboard.
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
 
+#include "keycode_japanese.h"
+
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <behaviors.dtsi>
