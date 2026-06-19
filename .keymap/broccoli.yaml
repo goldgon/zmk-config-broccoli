@@ -2,14 +2,14 @@ layout: {zmk_keyboard: broccoli}
 layers:
   default:
   - ESC
-  - {t: Q, h: game}
+  - {t: Q, h: SCROLL}
   - {t: E, h: '6'}
   - {t: U, h: '7'}
   - P
   - D
   - {t: T, h: '7'}
   - {t: R, h: '6'}
-  - {t: W, h: game}
+  - {t: W, h: SCROLL}
   - '&mkp MB1'
   - ⌃
   - {t: Tab, h: LSHIFT}
@@ -190,158 +190,120 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  game:
-  - Q
-  - {t: W, type: held}
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - ⌃
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ':'
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace$$
-  - $$mdi:keyboard-space$$
-  - {t: default, h: toggle}
+  SCROLL:
+  - ''
+  - {t: '&msc SCRL_RIGHT', type: held}
+  - '&mmv MOVE_Y(-1500)'
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB1'
+  - ''
+  - ''
+  - '&mmv MOVE_X(-1500)'
+  - '&mmv MOVE_Y(1500)'
+  - '&mmv MOVE_X(1500)'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '6':
-  - Q
-  - W
-  - {t: E, type: held}
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - ⌃
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ':'
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace$$
-  - $$mdi:keyboard-space$$
-  - {t: default, h: toggle}
+  - ''
+  - '&msc SCRL_RIGHT'
+  - {t: '&mmv MOVE_Y(-900)', type: held}
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB1'
+  - ''
+  - ''
+  - '&mmv MOVE_X(-900)'
+  - '&mmv MOVE_Y(900)'
+  - '&mmv MOVE_X(900)'
+  - ''
+  - ''
+  - Ctl+D
+  - Tab
+  - $$mdi:keyboard-return$$
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '7':
-  - Q
-  - W
-  - E
-  - {t: R, type: held}
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - ⌃
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ':'
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace$$
-  - $$mdi:keyboard-space$$
-  - {t: default, h: toggle}
-  '8':
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - ⌃
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ':'
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace$$
-  - $$mdi:keyboard-space$$
-  - {t: default, h: toggle}
+  - ''
+  - '&msc SCRL_RIGHT'
+  - '&mmv MOVE_Y(-200)'
+  - {t: '&msc SCRL_UP', type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MB1'
+  - ''
+  - ''
+  - '&mmv MOVE_X(-200)'
+  - '&mmv MOVE_Y(200)'
+  - '&mmv MOVE_X(200)'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [24, 25]
   k: ABC
@@ -380,6 +342,6 @@ combos:
   l: [default]
 - p: [10, 22]
   k: ESC
-  l: [game]
+  l: [SCROLL]
 - p: [10, 22, 35]
-  k: {t: game, h: toggle}
+  k: {t: SCROLL, h: toggle}
