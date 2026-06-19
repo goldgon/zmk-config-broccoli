@@ -35,9 +35,9 @@ layers:
   - {t: J, h: RGUI}
   - {t: Z, h: layer4}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace$$
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - {t: '$$mdi:keyboard-return$$', h: layer2}
+  - $$mdi:keyboard-space$$
+  - Ctl+Gui+$$mdi:chevron-left$$
+  - Gui+Ctl+$$mdi:chevron-right$$
   layer1:
   - ''
   - ''
