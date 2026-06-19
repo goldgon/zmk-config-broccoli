@@ -1,16 +1,16 @@
 layout: {zmk_keyboard: broccoli}
 layers:
   default:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - ESC
+  - {t: Q, h: game}
+  - {t: E, h: '6'}
+  - {t: U, h: '7'}
   - P
+  - D
+  - {t: T, h: '7'}
+  - {t: R, h: '6'}
+  - {t: W, h: game}
+  - '&mkp MB1'
   - ⌃
   - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
@@ -191,6 +191,120 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   game:
+  - Q
+  - {t: W, type: held}
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ⌃
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ':'
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace$$
+  - $$mdi:keyboard-space$$
+  - {t: default, h: toggle}
+  '6':
+  - Q
+  - W
+  - {t: E, type: held}
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ⌃
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ':'
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace$$
+  - $$mdi:keyboard-space$$
+  - {t: default, h: toggle}
+  '7':
+  - Q
+  - W
+  - E
+  - {t: R, type: held}
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ⌃
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ':'
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace$$
+  - $$mdi:keyboard-space$$
+  - {t: default, h: toggle}
+  '8':
   - Q
   - W
   - E
