@@ -18,8 +18,10 @@
             bindings = <
                 &kp ESCAPE      &lt 5 Q    &lt 6 E    &lt 7 U  &kp P                               &kp D        &lt 7 T       &lt 6 R     &lt 5 W     &mkp MB1
 
-&kp LEFT_CONTROL  &kp A  &hmr_l LEFT_GUI S  &hmr_l LEFT_ALT D  &hmr_l_2 LEFT_SHIFT F  &hmr_l_2 LCTRL G    &hmr_r_2 RCTRL H  &hmr_r_2 RIGHT_SHIFT J  &hmr_r RIGHT_ALT K  &hmr_r RIGHT_GUI L  &lt_arrow 3 MINUS  &kp SEMICOLON
-&kp LEFT_SHIFT    &kp Z  &kp X              &kp C              &kp V                  &kp B               &kp N             &kp M                   &kp COMMA           &kp DOT             &kp SLASH          &kp RIGHT_SHIFT
+&kp LEFT_CONTROL &mt LSHIFT TAB  &lt 3 O    &lt 2 A    &lt 1 I       &mt LCTRL F                  &mt RCTRL H  &lt 1 Y       &lt 2 K     &lt 3 S     &mt LEFT_SHIFT B    &kp SEMICOLON
+
+&kp LEFT_SHIFT   &lt 4 MINUS     &mt LGUI X &mt LALT C &mt LSHIFT V  &mt LCTRL L                  &mt RCTRL N  &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z             &kp RIGHT_SHIFT
+
                                             &kp BACKSPACE      &lt_thumb 1 SPACE                                            &lt_thumb 2 ENTER
             >;
         };
